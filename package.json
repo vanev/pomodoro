@@ -1,0 +1,9 @@
+{
+  "name": "pomodoro",
+  "version": "0.0.1",
+  "description": "A simple Pomodoro timer.",
+  "main": "index.js",
+  "repository": "git@github.com:vanev/pomodoro.git",
+  "author": "Evan Siegel <siegel.evan@gmail.com>",
+  "license": "MIT"
+}
