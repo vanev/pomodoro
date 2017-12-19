@@ -1,0 +1,45 @@
+@import "reset";
+
+.Timer {
+  padding: 5%;
+
+  font-family: monospace;
+
+
+  .--time {
+    font-size: 30vw;
+  }
+
+
+  .--label {
+    position: relative;
+    font-size: 30vw;
+  }
+  .--label + .--buttons { margin-top: 5vw; }
+
+
+  .--progress {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 0;
+    height: 5vw;
+    background-color: black;
+    transition: width 500ms linear;
+  }
+
+
+  .--buttons {}
+
+
+  .--button {
+    display: block;
+    box-sizing: border-box;
+    padding: 2.5vw 5vw;
+    width: 100%;
+
+    font-family: monospace;
+    font-size: 5vw;
+  }
+  .--button + .--button { margin-top: 2.5vw; }
+}
